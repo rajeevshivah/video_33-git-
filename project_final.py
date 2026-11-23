@@ -62,6 +62,9 @@ class BankAccount:
 def generate_account_number():
     return random.randint(100000, 999999)
 
+def generate_account_number1():
+    return random.randint(100000, 999999)
+
 
 def display_menu():
     print("\n========== BANK MENU ==========")
